@@ -10,9 +10,9 @@
 
     <!-- Menu (Desktop) -->
     <ul class="hidden sm:flex space-x-4 text-xl sm:text-2xl">
-      <li><a href="#" class="hover:text-gray-200">Home</a></li>
-      <li><a href="#" class="hover:text-gray-200">Quem Somos</a></li>
-      <li><a href="#" class="hover:text-gray-200">Contato</a></li>
+      <li class="my-4 mx-4"><router-link to="/" class="hover:text-gray-200">Home</router-link></li>
+      <li class="my-4 mx-4"><router-link to="/about" class="hover:text-gray-200">Sobre Nós</router-link></li>
+      <li class="my-4 mx-4"><router-link to="/contact" class="hover:text-gray-200">Contate-nos</router-link></li>
     </ul>
 
     <!-- Botão do menu mobile -->
@@ -34,9 +34,9 @@
       <li class="my-4 mx-4" @click="backMenu">
         <a href="#"><i class="fa-solid fa-arrow-rotate-left"></i></a>
       </li>
-      <li class="my-4 mx-4"><a href="#" class="hover:text-gray-200">Home</a></li>
-      <li class="my-4 mx-4"><a href="#" class="hover:text-gray-200">Quem Somos</a></li>
-      <li class="my-4 mx-4"><a href="#" class="hover:text-gray-200">Contato</a></li>
+      <li class="my-4 mx-4"><router-link to="/" class="hover:text-gray-200">Home</router-link></li>
+      <li class="my-4 mx-4"><router-link to="/about" class="hover:text-gray-200">Sobre Nós</router-link></li>
+      <li class="my-4 mx-4"><router-link to="/contact" class="hover:text-gray-200">Contate-nos</router-link></li>
     </ul>
   </nav>
 </template>

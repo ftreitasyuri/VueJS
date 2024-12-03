@@ -1,0 +1,10 @@
+NOTAS SOBRE VUE
+
+Para criar um projeto VUE:
+-- npm create vue@latest
+
+Para instalar as dependências:
+-- npm install / npm i
+
+Para subir o projeto:
+-- npm run dev
